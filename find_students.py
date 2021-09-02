@@ -1,3 +1,5 @@
+# Prompt: https://cdn.discordapp.com/attachments/737416979945750528/882944450521866250/unknown.png
+
 def find_students(dict_list, common_interest):
   set_list = [] # list of set_interests
   student_list = [] # list of students in dict_list
@@ -35,14 +37,10 @@ def find_students(dict_list, common_interest):
   return found_students # returns the desired output
     
 # Test cases
-find_students([{'Anne': ['NLP', 'Networks']}, 
-{'Bob': ['Computer Vision', 'Networks']}, 
-{'Charlie': ['Data Science']}], 'Networks')
+print(find_students([{'Anne': ['NLP', 'Networks']}, {'Bob': ['Computer Vision', 'Networks']}, {'Charlie': ['Data Science']}], 'Networks'))
 
-find_students([], 'yo')
+print(find_students([], 'yo'))
 
-find_students([{'Danny': ['Parallel Computing']},{'Eva': ['VR']}], 'Reinforcement Learning')
+print(find_students([{'Danny': ['Parallel Computing']},{'Eva': ['VR']}], 'Reinforcement Learning'))
 
-find_students([{'Me': ['Data Science']},{'Anne': ['NLP', 'Networks']}, 
-{'Bob': ['Computer Vision', 'Networks']}, 
-{'Charlie': ['Data Science']}], 'Networks')
+print(find_students([{'Me': ['Data Science']},{'Anne': ['NLP', 'Networks']}, {'Bob': ['Computer Vision', 'Networks']}, {'Charlie': ['Data Science']}], 'Networks'))
