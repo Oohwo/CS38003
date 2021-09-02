@@ -1,3 +1,5 @@
+# Prompt: https://cdn.discordapp.com/attachments/737416979945750528/882947526028853249/unknown.png
+
 def analysis(elements):
   tuple_list = ([])
   counter_list = []

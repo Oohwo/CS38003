@@ -1,3 +1,4 @@
+# Prompt: https://cdn.discordapp.com/attachments/737416979945750528/882947153029374022/unknown.png
 def increasing_dict(dictionary):
   key_value_list = []
 
