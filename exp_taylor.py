@@ -1,3 +1,5 @@
+# Prompt: https://cdn.discordapp.com/attachments/737416979945750528/882943580262518815/unknown.png
+
 import math
 def exp_talyor(x, n):
     estimation = 0
