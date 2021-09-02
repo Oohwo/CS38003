@@ -33,3 +33,16 @@ def find_students(dict_list, common_interest):
     found_students.append(student_list[index])
   
   return found_students # returns the desired output
+    
+# Test cases
+find_students([{'Anne': ['NLP', 'Networks']}, 
+{'Bob': ['Computer Vision', 'Networks']}, 
+{'Charlie': ['Data Science']}], 'Networks')
+
+find_students([], 'yo')
+
+find_students([{'Danny': ['Parallel Computing']},{'Eva': ['VR']}], 'Reinforcement Learning')
+
+find_students([{'Me': ['Data Science']},{'Anne': ['NLP', 'Networks']}, 
+{'Bob': ['Computer Vision', 'Networks']}, 
+{'Charlie': ['Data Science']}], 'Networks')
