@@ -1,3 +1,4 @@
+# Prompt: https://cdn.discordapp.com/attachments/737416979945750528/882946534235340821/unknown.png
 def remove_indices(word, list1):
   new_word = "" # output
 
