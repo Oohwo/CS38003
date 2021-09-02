@@ -22,3 +22,11 @@ def triangle_angles(a, b, c):
   if (canConstruct == False):
     return None
   return{angle_a, angle_b, angle_c}
+
+# test cases
+print(triangle_angles(1, 1, 2)) # None
+print(triangle_angles(8, 6, 7)) # {57.9100487437197, 75.52248781407008, 46.56746344221023}
+print(triangle_angles(3, 2, 4)) # {104.47751218592992, 28.95502437185985, 46.56746344221023}
+print(triangle_angles(0, 3, 3)) # None
+print(triangle_angles(7, 10, 6)) # {43.53115216737246, 100.28656061147494, 36.182287221152606}
+print(triangle_angles(3, 4, 5)) # {90.0, 36.86989764584401, 53.13010235415599}
