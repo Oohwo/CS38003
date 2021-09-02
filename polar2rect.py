@@ -6,3 +6,6 @@ def polar2Rect(l, ang):
   x = l * math.cos(ang)
   y = l * math.sin(ang)
   return(x, y)
+
+# test case
+print(polar2Rect(2, math.pi)) # (-2.0, 2.4492935982947064e-16)
