@@ -1,3 +1,5 @@
+# Prompt https://cdn.discordapp.com/attachments/737416979945750528/882944054076248064/unknown.png
+
 import math
 
 def triangle_angles(a, b, c):
