@@ -10,3 +10,8 @@
 2) increasing_dict
 3) remove_chars
 4) analysis
+
+## Lab 3:
+1) extract_email_address
+2) phone_numbers
+3) robinhood
