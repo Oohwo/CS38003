@@ -15,3 +15,6 @@
 1) extract_email_address
 2) phone_numbers
 3) robinhood
+
+## Midterm:
+1) Dictionaries: bob_grades
