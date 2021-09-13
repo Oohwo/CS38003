@@ -1,3 +1,5 @@
+# Prompt: https://cdn.discordapp.com/attachments/761432261311594506/887106886426578974/unknown.png
+
 def divisible_position(list1, num):
   # Determine the length of each list in list1, if the length is more than 3
   # keep the first three elements by slicing the list
