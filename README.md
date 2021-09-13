@@ -18,3 +18,4 @@
 
 ## Midterm:
 1) Dictionaries: bob_grades
+2) Lists: divisible_position
