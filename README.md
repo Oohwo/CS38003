@@ -19,3 +19,5 @@
 ## Midterm:
 1) Dictionaries: bob_grades
 2) Lists: divisible_position
+3) File Parsing Regex: parse_logs
+4) String Manipulation: suggest
