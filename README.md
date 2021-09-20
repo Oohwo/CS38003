@@ -24,5 +24,5 @@
 
 ## Lab 4:
 1) normalize
-2) compute_pay
-3) compute_total_salary
+2) compute_pay (uses sample.csv)
+3) compute_total_salary (uses sample.csv)
