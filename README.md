@@ -26,3 +26,8 @@
 1) normalize
 2) compute_pay (uses sample.csv)
 3) compute_total_salary (uses sample.csv)
+
+## Lab 5:
+1) estimate_pi
+2) plate_generate
+3) plot_func
