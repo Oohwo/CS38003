@@ -21,3 +21,8 @@
 2) Lists: divisible_position
 3) File Parsing Regex: parse_logs
 4) String Manipulation: suggest
+
+## Lab 4:
+1) normalize
+2) compute_pay
+3) compute_total_salary
