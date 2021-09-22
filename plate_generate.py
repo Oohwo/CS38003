@@ -20,3 +20,58 @@
 # plate_generate('', 6) -> '923-JEI'
 # plate_generate('ABC1', 6) -> 'ABC-1JE
 # plate_generate('1B', 4) -> 1B3-ADE
+
+import random
+from random import randrange
+import string
+
+def plate_generate(prefix, N):
+  i = 0
+  first_three_letters = False
+  last_three_num = False
+
+  plate = ''
+  if len(prefix) > 3:
+    prefix_1 = prefix[0:3]
+    prefix_2 = prefix[3:]
+
+    plate = prefix_1 + '-' + prefix_2
+    first_three_letters = any(i.isalpha() for i in prefix_1)
+    # last_three_num = any(i.isnumber() for i in prefix_2)
+    if first_three_letters:
+      while len(plate) <= N:
+        if len(plate) == 3:
+          plate = plate + '-'
+        plate = plate + str(randrange(0, 9))
+    else:
+      while len(plate) <= N:
+        if len(plate) == 3:
+          plate = plate + '-'
+        plate = plate + random.choice(string.ascii_uppercase)
+  else:
+    plate = prefix
+    first_three_letters = any(i.isalpha() for i in prefix)
+    if first_three_letters:
+      while len(plate) <= N:
+        if len(plate) < 3:
+          plate = plate + random.choice(string.ascii_uppercase)
+        if len(plate) == 3:
+          plate = plate + '-'
+        if len(plate) > 3:
+          plate = plate + str(randrange(0, 9))
+    else:
+      while len(plate) <= N:
+        if len(plate) < 3:
+          plate = plate + str(randrange(0, 9))
+        if len(plate) == 3:
+          plate = plate + '-'
+        if len(plate) > 3:
+          plate = plate + random.choice(string.ascii_uppercase)
+        
+  return plate
+
+print(plate_generate('76', 4))
+print(plate_generate('831B', 6))
+print(plate_generate('', 5))
+print(plate_generate('', 6))
+print(plate_generate('ABC1', 6))
