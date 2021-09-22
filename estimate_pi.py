@@ -41,3 +41,31 @@
 # estimate_pi(1000) -> 3.18
 # estimate_pi() -> None
 # estimate_pi('hi') -> None
+import random
+from random import random
+
+def estimate_pi(M):
+  circle_n_points = 0
+  square_m_points = 0
+
+  if type(M) != int:
+    return None
+
+  i = 0
+  while i < M:
+    x_coord = random()
+    y_coord = random()
+
+    distance = x_coord**2 + y_coord**2
+
+    if distance <= 1:
+      circle_n_points = circle_n_points + 1
+    square_m_points = square_m_points + 1
+
+    pi = (4 * circle_n_points) / square_m_points
+
+    i = i + 1
+
+  return pi
+
+print(estimate_pi(1000))
