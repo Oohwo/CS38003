@@ -33,7 +33,7 @@
 3) plot_func
 
 ## Final:
-1) Pandas: diamond_stat
+1) Pandas: diamond_stat (uses diamond_data.csv)
 2) Cipher: caesar_cipher
 3) Lists: remove_subs
 4) LU Decomposition: LU
