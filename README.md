@@ -31,3 +31,9 @@
 1) estimate_pi
 2) plate_generate
 3) plot_func
+
+## Final:
+1) Pandas: diamond_stat
+2) Cipher: caesar_cipher
+3) Lists: remove_subs
+4) LU Decomposition: LU
